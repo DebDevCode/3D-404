@@ -27,14 +27,16 @@ function Font() {
     anchorY: "middle",
   };
   return (
-    <group>
-      <Text position={[0, 0, -0.1]} fontSize={0.4} {...textOption}>
-        404
-      </Text>
-      <Text position={[0, -0.2, -0.1]} fontSize={0.03} {...textOption}>
-        Something went wrong!
-      </Text>
-    </group>
+    <Float>
+      <group>
+        <Text position={[0, 0, -0.1]} fontSize={0.4} {...textOption}>
+          404
+        </Text>
+        <Text position={[0, -0.2, -0.1]} fontSize={0.03} {...textOption}>
+          Oops, something went wrong!
+        </Text>
+      </group>
+    </Float>
   );
 }
 
