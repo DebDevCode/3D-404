@@ -32,7 +32,7 @@ function Font() {
         404
       </Text>
       <Text position={[0, -0.2, -0.1]} fontSize={0.03} {...textOption}>
-        The link is broken
+        Something went wrong!
       </Text>
     </group>
   );
